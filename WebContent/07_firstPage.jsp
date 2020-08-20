@@ -14,7 +14,9 @@
   System.out.println("하나의 애플리케이션 속성 :"+ application.getAttribute("name"));
   
   request.getRequestDispatcher("07_secondPage.jsp").forward(request,response);
+  
   %>
+  <jsp:forward page="07_secondPage.jsp"/>
 <!DOCTYPE html>
 <html>
 <head>
